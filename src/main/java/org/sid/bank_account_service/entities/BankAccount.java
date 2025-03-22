@@ -16,7 +16,7 @@ public class BankAccount {
     @Id
     private String id;
     private Date createAt;
-    private double balance;
+    private Double balance;
     private String currency;
     private AccountType type;
 }
